@@ -16,8 +16,8 @@ spec:
       values: |
         pushgateway:
           enabled: false
-    repoURL: https://github.com/Gavin-Garley/argo-test.git
-    targetRevision: latest
+    repoURL: https://github.com/nginxinc/helm-charts
+    targetRevision: 0.3.1
   syncPolicy:
     automated:
       prune: true
