@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app2
+  name: app3
   namespace: default
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -16,8 +16,8 @@ spec:
       values: |
         pushgateway:
           enabled: false
-    repoURL: https://github.com/nginxinc/helm-charts
-    targetRevision: 0.3.1
+    repoURL: https://github.com/Gavin-Garley/busybox.git
+    targetRevision: 0.1.0
   syncPolicy:
     automated:
       prune: true

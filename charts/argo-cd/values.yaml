@@ -9,6 +9,13 @@ argo-cd:
     extraArgs:
       - --insecure
     config:
+      resource.exclusions: |
+        - apiGroups:
+          - "*"
+          kinds:
+          - "*"
+          clusters:
+          - "*"
       repositories: |
         - type: helm
           name: stable
