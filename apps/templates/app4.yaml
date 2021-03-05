@@ -16,7 +16,7 @@ spec:
       values: |
         pushgateway:
           enabled: false
-    repoURL: https://github.com/Gavin-Garley/nginx.git
+    repoURL: https://github.com/Gavin-Garley/nginx
     targetRevision: 0.1.0
   syncPolicy:
     automated:

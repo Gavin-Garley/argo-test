@@ -16,7 +16,7 @@ spec:
       values: |
         pushgateway:
           enabled: false
-    repoURL: https://github.com/Gavin-Garley/argo-test.git
+    repoURL: https://github.com/Gavin-Garley/argo-test
     targetRevision: latest
   syncPolicy:
     automated:
